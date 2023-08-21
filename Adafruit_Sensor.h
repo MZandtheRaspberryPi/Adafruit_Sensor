@@ -29,6 +29,10 @@
 #include "WProgram.h"
 #endif
 
+#ifdef NOT_ARDUINO
+#include <iostream>
+#endif
+
 /* Constants */
 #define SENSORS_GRAVITY_EARTH (9.80665F) /**< Earth's gravity in m/s^2 */
 #define SENSORS_GRAVITY_MOON (1.6F)      /**< The moon's gravity in m/s^2 */
